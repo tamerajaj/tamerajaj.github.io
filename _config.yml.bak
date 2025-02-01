@@ -1,6 +1,8 @@
+
+
 # main text of home
 title: Tamer Ajaj
-bio: Machine Learning, Neuroscience, and Human-AI interaction.
+bio: Machine Learning and Human-AI interaction.
 
 # twitter summary info
 description: ''
@@ -52,7 +54,7 @@ authors:
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
 # normal = 560px / large = 810px
-width: large
+width: normal
 
 # if you do/don't need pagination, toggle 'enabled' between true/false below
 pagination:
@@ -70,7 +72,7 @@ about: true
 blog: false
 
 # do you want to show the "read time" of the posts?
-read-time: false
+read-time: true
 
 # do you want to show the "tags" inside the posts?
 show-tags: true
@@ -104,7 +106,10 @@ plugins:
   - jemoji
   - jekyll-paginate-v2
   #- jekyll-admin
-
+  - jekyll-remote-theme
+  
+  
+remote_theme: daattali/beautiful-jekyll
 compress_html:
   ignore:
     envs:

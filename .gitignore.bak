@@ -4,5 +4,4 @@ _site
 Gemfile.lock
 .bundle
 vendor/
-.idea/
-_posts_drafts/
+.idea/vcs.xml
